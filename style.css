@@ -1,0 +1,43 @@
+#container {
+	display: flex;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 46rem;
+	width: 95rem;
+	opacity: 0.7;
+	background-image: url(pingpong.jpg);
+}
+
+#ball {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	position: fixed;
+	opacity: 0.8;
+	top: 20px;
+	left: 52.5%;
+	border-radius: 50%;
+}
+
+#player1,
+#player2 {
+	width: 200px;
+	height: 20px;
+	position: fixed;
+	left: 50%;
+	border-radius: 25px;
+	text-align: center;
+	color: yellow;
+	font-weight: bold;
+}
+
+#player1 {
+	background-color: blue;
+	top: 0px;
+}
+
+#player2 {
+	background-color: blueviolet;
+	bottom: 0px;
+}
